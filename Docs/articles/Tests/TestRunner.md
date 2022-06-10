@@ -12,7 +12,7 @@ To use the TestRunnner open the `Test.sln`, set the Target Project to `Cosmos.Te
 Editing the configuration for TestRunner via [DefaultEngineConfiguration](https://github.com/CosmosOS/Cosmos/blob/master/Tests/Cosmos.TestRunner.Core/DefaultEngineConfiguration.cs#L6) in ..\Tests\TestRunner\TestRunner.Core
 This allows one to choose which emulator to use and at what level the kernel is debugged.
 
-To select which Test Kernels to run, edit `GetStableKernelTypes()` in `TestKernelSets.cs`.
+To select which Test Kernels to run, edit `GetStableKernelTypes()` in `TestKernelSets.cs` in the ..\Tests\TestRunner\TestRunner.Full solution.
 
 ### Adding a Kernel
 To add a kernel to the TestRunner, open the TestKernelSets file and add a line to GetStableKernelTypes() like this line:
